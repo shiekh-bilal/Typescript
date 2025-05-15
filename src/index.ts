@@ -9,3 +9,7 @@
 let numbers: number[] = [1, 2, 3]; //array declaration
 
 let numbers2: [number, string] = [1, "test"]; //tuples
+
+const enum Size {Small, Medium, Large};       //enums
+let mySize: Size = Size.Medium;
+console.log(mySize);
